@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <Title title="微信" RT="iconfont icon-21"/>
-    HOME
+    <Title title="联系人" RT="iconfont icon-jiaren"/>
+    Linkman
     <Tab />
   </div>
 </template>
@@ -9,11 +9,11 @@
 <script>
 import Tab from '@/components/Tab/index'
 import Title from '@/components/Title/index'
+
 export default {
-  name: 'home',
+  name: 'linkman',
   components: {
-    Tab,
-    Title
+    Tab,Title
   }
 }
 </script>
